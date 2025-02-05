@@ -808,3 +808,158 @@ box-shadow: 0px 0px 33px -20px rgba(0,0,0,0.75);
 /*=============================
  Trail part end
  ==============================*/
+/*=============================
+ recent part start
+ ==============================*/
+ .recent{
+    transform: translateY(550px);
+    padding-bottom: 70px;
+ }
+ .recent .box{
+    justify-content: space-between;
+    align-content: center;
+    padding-bottom: 70px;
+ }
+ .recent .box h2{
+    font-size: 48px;
+    font-family: "Poppins", serif;
+    color: #29313D;
+    font-weight: 600;
+ }
+ .recent .recent-layout {
+    display: flex;
+    align-items: center;
+    column-gap: 36px;
+ }
+ .recent .recent-layout ul{
+    display: flex;
+    column-gap: 30px;
+ }
+
+ .recent .recent-layout h4{
+    font-size: 28px;
+    font-family: "Poppins", serif;
+    color: #29313D;
+    font-weight: 600;
+
+ }
+
+ .recent .recent-layout ul li a{
+    width: 64px;
+    height: 64px;
+    background: rgba(106, 85, 234,0.10);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .4s;
+
+ }
+ .recent .recent-layout ul li:hover a{
+    background: #6A55EA;
+
+ }
+
+ .recent .recent-layout ul li:hover a i{
+    color: white;
+ }
+ /* recent Layout Two start */
+ .recent .box2{
+    display: flex;
+ }
+ .recent .box2 .left{
+    width: 65%;
+  
+
+ }
+
+ .recent .box2 .right{
+    width: 35%;
+    border-top: 1px solid rgb(87, 83, 83);
+    
+    
+
+ }
+ .recent .box3{
+    display: flex;
+    column-gap: 30px;
+    
+}
+.recent .box3:last-child{
+     padding-top: 30px;
+
+ }
+ .recent .box3 h4{
+    font-size: 32px;
+    font-family: "Poppins", serif;
+    font-weight:600 ;
+    color: #29313D;
+    width: 552px;
+    padding-bottom: 24px;
+    
+ }
+ .recent .box4 {
+    display: flex;
+    column-gap: 18px;
+    align-items: center;
+ }
+ .recent .box4  h6{
+    font-size: 28px;
+    font-family: "Poppins", serif;
+    font-weight:600 ;
+    color: #29313D;
+    
+ }
+ .recent .box4  p{
+    font-size: 16px;
+    font-weight:600 ;
+    color: #29313D;
+    font-family:"Nunito", serif;
+    
+ }
+ .recent .paraTwo{
+    font-size: 18px;
+    font-family:"Nunito", serif;
+    font-weight:400 ;
+    color: #29313D;
+    width: 443px;
+    padding-top: 28px;
+    line-height: 200%;
+
+    
+ }
+ .recent .recent-right-part{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    padding-top: 30px;
+ }
+ .recent .recent-right-part span i{
+    font-size: 36px;
+    color: red;
+    
+ }
+ .recent .recent-right-part h2{
+    font-size: 28px;
+    font-family: "Poppins", serif;
+    font-weight:600 ;
+    color: #29313D;
+ }
+ .recent .box5{
+    padding-top: 34px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+ }
+
+ .recent .image-box{
+    width: 210px;
+    height: 210px;
+    border-radius: 20px;
+ }
+ .recent .image-box img{
+    width: 100%;
+ }
+/*=============================
+ recent part end
+ ==============================*/
